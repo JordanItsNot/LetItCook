@@ -4,6 +4,127 @@
   themes: all;
 }
 
+/* 
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+*/
+
+
 * {
   box-sizing: border-box;
+}
+
+body{
+	background-color: rgb(255, 253, 209);
+}
+
+.grid{
+	display: grid;
+	grid-template-columns: 10fr 5.5fr 15fr;
+	gap: 25px;
+	margin: 20px;
+}
+
+.flexleft{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+.flexright{
+
+}
+
+.title{
+ font-family: "Short Stack", cursive;
+ font-weight: 400;
+ font-size: 8vh;
+ font-style: normal;
+}
+
+.recipebox{
+	height: 95vh;
+	border: 6px solid black;
+	border-radius: 10px;
+	background-color: rgb(255, 253, 224);
+	overflow: auto;
+	padding: 0px 0px 0px 11px;
+}
+
+.searchbar{
+	margin: 2vh 0px 0px 0px;
+	box-sizing: border-box;
+	height: 5vh;
+	border: 2px solid black;
+	background-color: white;
+	border-radius: 8px;
+	font-size: 15px;
+	padding-top: 2.562px;
+	padding-left: 3.5px;
+}
+
+.resultsbox{
+	margin: 3vh 0px 0px 0px;
+	padding: 0;
+	height: 73vh;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: rgb(255, 254, 237);
+	overflow: auto;
+}
+
+.taglist{
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+	padding-left: 10px;
+	gap: 15px;
+	height: 95vh;
+	border: 5px solid black;
+	border-radius: 10px;
+	background-color: rgb(180, 180, 180);
+  font-size: 20px;
+}
+
+.recipelist{
+	list-style: none;
+	padding: 20px;
+}
+
+.recipename{
+ font-family: "Comic Relief", system-ui;
+	font-weight: 400;
+	font-size: 35px;
+	line-height: 1.8;
+ font-style: normal;
+}
+
+.tagclass{
+  margin-right: 8px;
+  font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+.header{
+	margin-top: 10px;
+	font-size: 43px;
+	font-family: "Fuzzy Bubbles", sans-serif;
+	font-weight: 700px;
+}
+
+.bodytext{
+	font-size: 30px;
+	text-indent: 40px;
+	margin-top: 5px;
+	font-family: "Fuzzy Bubbles", sans-serif;
+  	font-weight: 700;
+}
+
+.bodytext2{
+	font-size: 22px;
+	text-indent: 40px;
+	margin-top: 5px;
+	font-family: "Fuzzy Bubbles", sans-serif;
+  	font-weight: 500;
+
 }

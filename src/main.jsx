@@ -5,6 +5,7 @@ import { RouterProvider } from "react-router/dom";
 import './index.css';
 import Layout from './Layout';
 
+
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <BrowserRouter>
