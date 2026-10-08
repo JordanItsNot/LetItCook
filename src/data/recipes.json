@@ -1,0 +1,179 @@
+[
+    {
+        "name": "Oatmeal Raisin Cookie",
+        "id": "oatmealrai",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Oatmeal",
+            "Raisins"
+        ]
+    },
+    {
+        "name": "Peanut Butter Cookie",
+        "id": "peanutbutt",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Peanut Butter"
+        ]
+    },
+    {
+        "name": "Snickerdoodle Cookie",
+        "id": "snickerdoo",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Cinnamon",
+            "Cream of Tartar"
+        ]
+    },
+    {
+        "name": "Gingerbread Cookie",
+        "id": "gingerbrea",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Ginger",
+            "Molasses"
+        ]
+    },
+    {
+        "name": "Shortbread Cookie",
+        "id": "shortbread",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Butter"
+        ]
+    },
+    {
+        "name": "Macadamia Nut Cookie",
+        "id": "macadamian",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Macadamia Nuts",
+            "White Chocolate"
+        ]
+    },
+    {
+        "name": "Double Chocolate Cookie",
+        "id": "doublechoc",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Cocoa Powder",
+            "Chocolate Chips"
+        ]
+    },
+    {
+        "name": "White Chocolate Raspberry Cookie",
+        "id": "whitechoco",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "White Chocolate",
+            "Raspberries"
+        ]
+    },
+    {
+        "name": "Pumpkin Spice Cookie",
+        "id": "pumpkinspi",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Pumpkin Purée",
+            "Pumpkin Spice"
+        ]
+    },
+    {
+        "name": "Lemon Crinkle Cookie",
+        "id": "lemoncrink",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Lemon Juice",
+            "Powdered Sugar"
+        ]
+    },
+    {
+        "name": "Red Velvet Cookie",
+        "id": "redvelvet",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Cocoa Powder",
+            "Red Food Coloring"
+        ]
+    },
+    {
+        "name": "M&M Cookie",
+        "id": "mnm",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "M&M Candies"
+        ]
+    },
+    {
+        "name": "S'mores Cookie",
+        "id": "smores",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Graham Crackers",
+            "Marshmallows",
+            "Chocolate"
+        ]
+    },
+    {
+        "name": "Nutella Stuffed Cookie",
+        "id": "nutellastu",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Nutella"
+        ]
+    },
+    {
+        "name": "Almond Biscotti Cookie",
+        "id": "almondbisc",
+        "ingre": [
+            "sugar",
+            "Egg",
+            "Milk",
+            "All-Purpose Flour",
+            "Almond Extract",
+            "Sliced Almonds"
+        ]
+    }
+]
