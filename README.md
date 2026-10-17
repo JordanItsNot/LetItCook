@@ -4,3 +4,6 @@
 - tailwind: https://nerdcave.com/tailwind-cheat-sheet
 
 
+## commands
+
+pnpm dev

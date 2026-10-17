@@ -34,7 +34,11 @@ export default function HomePage() {
                             {recipes.filter(r => r.name.toLocaleLowerCase().includes(searchStr.toLocaleLowerCase())).map(r => (
                                 <li class="recipename" onClick={() => setSelectedRecipeIndex(r.id)} style={{
                                     backgroundColor: selectedRecipeIndex == r.id ? "gold" : ""
-                                }} >{r.name}</li>
+                                }} >{r.name}
+                                    <div style={{ display: "flex" }}>
+                                        {new Array(Math.max(0, Math.floor(Math.random() * 5) - 1)).fill(0).map(c => <span className="cookie">🍪</span>)}
+                                    </div>
+                                </li>
                             ))}
                         </ul>
                     </div>

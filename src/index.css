@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 @plugin "daisyui" {
-  themes: all;
+	themes: all;
 }
 
 /* 
@@ -12,38 +12,36 @@
 
 
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
 
-body{
+body {
 	background-color: rgb(255, 253, 209);
 }
 
-.grid{
+.grid {
 	display: grid;
 	grid-template-columns: 10fr 5.5fr 15fr;
 	gap: 25px;
 	margin: 20px;
 }
 
-.flexleft{
+.flexleft {
 	display: flex;
 	flex-direction: column;
-	
-}
-
-.flexright{
 
 }
 
-.title{
- font-family: "Short Stack", cursive;
- font-weight: 400;
- font-size: 8vh;
- font-style: normal;
+.flexright {}
+
+.title {
+	font-family: "Short Stack", cursive;
+	font-weight: 400;
+	font-size: 8vh;
+	font-style: normal;
 }
 
-.recipebox{
+.recipebox {
 	height: 95vh;
 	border: 6px solid black;
 	border-radius: 10px;
@@ -52,7 +50,7 @@ body{
 	padding: 0px 0px 0px 11px;
 }
 
-.searchbar{
+.searchbar {
 	margin: 2vh 0px 0px 0px;
 	box-sizing: border-box;
 	height: 5vh;
@@ -64,7 +62,7 @@ body{
 	padding-left: 3.5px;
 }
 
-.resultsbox{
+.resultsbox {
 	margin: 3vh 0px 0px 0px;
 	padding: 0;
 	height: 73vh;
@@ -74,7 +72,7 @@ body{
 	overflow: auto;
 }
 
-.taglist{
+.taglist {
 	display: flex;
 	flex-direction: column;
 	padding-top: 10px;
@@ -84,47 +82,58 @@ body{
 	border: 5px solid black;
 	border-radius: 10px;
 	background-color: rgb(180, 180, 180);
-  font-size: 20px;
+	font-size: 20px;
 }
 
-.recipelist{
+.recipelist {
 	list-style: none;
 	padding: 20px;
 }
 
-.recipename{
- font-family: "Comic Relief", system-ui;
+.recipename {
+	margin-top: 20px;
+	font-family: "Comic Relief", system-ui;
 	font-weight: 400;
-	font-size: 35px;
-	line-height: 1.8;
- font-style: normal;
+	font-size: 25px;
+	font-style: normal;
+	transition: 0.1s;
 }
 
-.tagclass{
-  margin-right: 8px;
-  font-family: "Fuzzy Bubbles", sans-serif;
+.recipename:hover {
+	color: #a38226;
+	transform: translateY(5px);
 }
 
-.header{
+.tagclass {
+	margin-right: 8px;
+	font-family: "Fuzzy Bubbles", sans-serif;
+}
+
+.header {
 	margin-top: 10px;
 	font-size: 43px;
 	font-family: "Fuzzy Bubbles", sans-serif;
 	font-weight: 700px;
 }
 
-.bodytext{
+.bodytext {
 	font-size: 30px;
 	text-indent: 40px;
 	margin-top: 5px;
 	font-family: "Fuzzy Bubbles", sans-serif;
-  	font-weight: 700;
+	font-weight: 700;
 }
 
-.bodytext2{
+.bodytext2 {
 	font-size: 22px;
 	text-indent: 40px;
 	margin-top: 5px;
 	font-family: "Fuzzy Bubbles", sans-serif;
-  	font-weight: 500;
+	font-weight: 500;
 
+}
+
+.cookie {
+	margin-right: -20px;
+	margin-top: -10px;
 }
