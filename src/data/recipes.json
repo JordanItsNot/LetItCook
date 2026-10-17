@@ -1,17 +1,5 @@
 [
     {
-        "name": "Oatmeal Raisin Cookie",
-        "id": "oatmealrai",
-        "ingre": [
-            "sugar",
-            "Egg",
-            "Milk",
-            "All-Purpose Flour",
-            "Oatmeal",
-            "Raisins"
-        ]
-    },
-    {
         "name": "Peanut Butter Cookie",
         "id": "peanutbutt",
         "ingre": [
@@ -82,18 +70,6 @@
         ]
     },
     {
-        "name": "White Chocolate Raspberry Cookie",
-        "id": "whitechoco",
-        "ingre": [
-            "sugar",
-            "Egg",
-            "Milk",
-            "All-Purpose Flour",
-            "White Chocolate",
-            "Raspberries"
-        ]
-    },
-    {
         "name": "Pumpkin Spice Cookie",
         "id": "pumpkinspi",
         "ingre": [
@@ -103,30 +79,6 @@
             "All-Purpose Flour",
             "Pumpkin Purée",
             "Pumpkin Spice"
-        ]
-    },
-    {
-        "name": "Lemon Crinkle Cookie",
-        "id": "lemoncrink",
-        "ingre": [
-            "sugar",
-            "Egg",
-            "Milk",
-            "All-Purpose Flour",
-            "Lemon Juice",
-            "Powdered Sugar"
-        ]
-    },
-    {
-        "name": "Red Velvet Cookie",
-        "id": "redvelvet",
-        "ingre": [
-            "sugar",
-            "Egg",
-            "Milk",
-            "All-Purpose Flour",
-            "Cocoa Powder",
-            "Red Food Coloring"
         ]
     },
     {
@@ -162,18 +114,6 @@
             "Milk",
             "All-Purpose Flour",
             "Nutella"
-        ]
-    },
-    {
-        "name": "Almond Biscotti Cookie",
-        "id": "almondbisc",
-        "ingre": [
-            "sugar",
-            "Egg",
-            "Milk",
-            "All-Purpose Flour",
-            "Almond Extract",
-            "Sliced Almonds"
         ]
     }
 ]

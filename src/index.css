@@ -101,7 +101,13 @@ body {
 
 .recipename:hover {
 	color: #a38226;
-	transform: translateY(5px);
+	transform: scale(1.05, 1.05);
+}
+
+.recipename:active {
+	transition: 0.07s;
+	color: #a38226;
+	transform: scale(1, 1);
 }
 
 .tagclass {

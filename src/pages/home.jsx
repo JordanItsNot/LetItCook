@@ -15,6 +15,22 @@ export default function HomePage() {
                 return "🥛 Milk";
             case "egg":
                 return "🥚 Egg"
+            case "sugar":
+                return "🍬 Sugar";
+            case "all-purpose flour":
+                return "🌾 Flour"
+            case "cinnamon":
+                return "🪵 Cinnamon";
+            case "peanut butter":
+                return "🥜 Peanut Butter"
+            case "oatmeal":
+                return "🥣 Oatmeal";
+            case "raisins":
+                return "🍇 Raisins";
+            case "ginger":
+                return "🫚 Ginger";
+            case "butter":
+                return "🧈 Butter";
             default:
                 return name;
         }
@@ -24,7 +40,7 @@ export default function HomePage() {
         <div>
             <div class="grid">
                 <div class="flexleft">
-                    <div class="title">LET IT COOK</div>
+                    <span class="title">LET IT COOK</span>
                     <input type="text" placeholder="Search up a recipe!" class="searchbar" onChange={ev => setSearchStr(ev.target.value)} />
                     <div class="resultsbox">
                         <ul class="recipelist">
@@ -33,10 +49,10 @@ export default function HomePage() {
                             <li class="recipename">- Choc. Chip Cookies</li> */}
                             {recipes.filter(r => r.name.toLocaleLowerCase().includes(searchStr.toLocaleLowerCase())).map(r => (
                                 <li class="recipename" onClick={() => setSelectedRecipeIndex(r.id)} style={{
-                                    backgroundColor: selectedRecipeIndex == r.id ? "gold" : ""
+                                    color: selectedRecipeIndex == r.id ? "gold" : ""
                                 }} >{r.name}
                                     <div style={{ display: "flex" }}>
-                                        {new Array(Math.max(0, Math.floor(Math.random() * 5) - 1)).fill(0).map(c => <span className="cookie">🍪</span>)}
+                                        {new Array(Math.max(1, Math.floor(Math.random() * 5) - 1)).fill(0).map(c => <span className="cookie">🍪</span>)}
                                     </div>
                                 </li>
                             ))}
